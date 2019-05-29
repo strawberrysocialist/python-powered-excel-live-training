@@ -1,4 +1,4 @@
-FROM jupyter/<notebook>:<version hash>
+FROM jupyter/minimal-notebook:2662627f26e0
 
 #Set the working directory
 WORKDIR /home/jovyan/
